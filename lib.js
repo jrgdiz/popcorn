@@ -40,7 +40,10 @@ function init() {
 }
 
 function onKeyDown(evt) {
-  direction = evt.keyCode - 37;
+  var newdir = evt.keyCode - 37;
+  if (newdir >= 0 && newdir <= 4) {
+    direction = newdir;
+  }
 }
 
 if ($.browser.mozilla) {
