@@ -18,7 +18,7 @@ function update() {
 function checkDeath() {
   if (collision()) {
     die();
-    alert("you are dead. seconds: " + lastTime/1000);
+    alert("you are dead!\n\nyour life as a popcorn lasted " + lastTime/1000 + " seconds");
     return true;
   }
   return false;
