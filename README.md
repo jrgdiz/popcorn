@@ -4,4 +4,4 @@ Heavily inspired by my first attempt, [a clone of the snake game](http://github.
 
 It was developed during the 2013 [0hgame jam](http://0hgame.eu).
 
-You can try it [live](http://diz.es/popcorn).
+You could try it live before, but it doesn't work in modern browsers anymore.
